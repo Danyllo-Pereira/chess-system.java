@@ -1,10 +1,14 @@
 package Application;
 
+import boardgame.position;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Eu te amo Aline!");
+		position pos = new position(3, 5);
+		
+		System.out.println(pos);
 
 	}
 
